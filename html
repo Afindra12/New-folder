@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebGIS Geopark Kebumen</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+    <style>
+        #map {
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script>
+// Inisialisasi peta
+var map = L.map('map').setView([-7.65, 109.55], 10);
+
+// Basemap
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19
+}).addTo(map);
+
+// Data GeoJSON (contoh sederhana)
+var geositeData = {
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "nama": "Karangsambung",
+                "jenis": "Geo",
+                "deskripsi": "Kawasan batuan melange"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [109.6766, -7.6047]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nama": "Pantai Menganti",
+                "jenis": "Bio",
+                "deskripsi": "Pantai dengan tebing indah"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [109.3833, -7.7659]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nama": "Goa Jatijajar",
+                "jenis": "Cultural",
+                "deskripsi": "Goa dengan nilai budaya"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [109.4242, -7.6794]
+            }
+        }
+    ]
+};
+
+// Fungsi styling berdasarkan jenis
+function getColor(jenis) {
+    return jenis === 'Geo' ? 'red' :
+           jenis === 'Bio' ? 'green' :
+           'blue';
+}
+
+// Menampilkan GeoJSON
+L.geoJSON(geositeData, {
+    pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, {
+            radius: 8,
+            fillColor: getColor(feature.properties.jenis),
+            color: '#000',
+            weight: 1,
+            fillOpacity: 0.8
+        });
+    },
+    onEachFeature: function (feature, layer) {
+        layer.bindPopup(
+            '<b>' + feature.properties.nama + '</b><br>' +
+            'Jenis: ' + feature.properties.jenis + '<br>' +
+            feature.properties.deskripsi
+        );
+    }
+}).addTo(map);
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+id	nama_akomodasi	tipe	latitude	longitude	kapasitas	harga_per_malam	parkir	wifi	ac	restoran	rating
+1	Mexolie Hotel	Hotel	-7.678	109.656	2	450000	Ya	Ya	Ya	Ya	4.5
+2	Trio Azana Style Hotel	Hotel	-7.682	109.663	2	400000	Ya	Ya	Ya	Ya	4.3
+3	Candisari Hotel	Hotel	-7.674	109.655	2	300000	Ya	Ya	Ya	Tidak	4
+4	Hotel Grand Kolopaking	Hotel	-7.676	109.654	2	550000	Ya	Ya	Ya	Ya	4.6
+5	Hotel Wisma CK	Hotel	-7.681	109.66	2	275000	Ya	Ya	Ya	Tidak	4
+6	Urbanview Kebumen	Hotel	-7.683	109.661	2	250000	Ya	Ya	Ya	Tidak	4
+7	RedDoorz Kebumen Kota	Hotel	-7.679	109.658	2	220000	Ya	Ya	Ya	Tidak	4.1
+8	Homestay Karangsambung	Homestay	-7.551	109.671	4	250000	Ya	Ya	Ya	Tidak	4.6
+9	Homestay Lava Bantal	Homestay	-7.559	109.665	6	350000	Ya	Ya	Ya	Tidak	4.4
+10	Karangsambung Guest House	Guest House	-7.548	109.67	8	450000	Ya	Ya	Ya	Tidak	4.5
+11	Penginapan Geopark Karangsambung	Homestay	-7.553	109.673	4	275000	Ya	Ya	Ya	Tidak	4.3
+12	Menganti Cottage	Cottage	-7.769	109.413	4	500000	Ya	Ya	Ya	Ya	4.7
+13	Menganti Resort	Resort	-7.767	109.415	6	850000	Ya	Ya	Ya	Ya	4.8
+14	Karangbolong Resort	Resort	-7.742	109.379	4	650000	Ya	Ya	Ya	Ya	4.8
+15	Penginapan Ayah	Homestay	-7.699	109.401	4	275000	Ya	Ya	Ya	Tidak	4.2
+16	Ayah Beach Inn	Hotel	-7.701	109.404	2	375000	Ya	Ya	Ya	Tidak	4.2
+17	Jatijajar Inn	Hotel	-7.662	109.426	2	325000	Ya	Ya	Ya	Tidak	4.1
+18	Goa Jatijajar Homestay	Homestay	-7.661	109.428	5	250000	Ya	Ya	Ya	Tidak	4.2
+19	Gombong Hotel	Hotel	-7.606	109.515	2	350000	Ya	Ya	Ya	Ya	4.2
+20	Front One Gombong	Hotel	-7.609	109.518	2	425000	Ya	Ya	Ya	Ya	4.4
+21	Gombong Guest House	Guest House	-7.608	109.52	4	275000	Ya	Ya	Ya	Tidak	4
+22	Pantai Logending Cottage	Cottage	-7.706	109.394	4	450000	Ya	Ya	Ya	Tidak	4.3
+23	Logending Homestay	Homestay	-7.705	109.396	6	250000	Ya	Ya	Ya	Tidak	4.1
+24	Petanahan Beach Resort	Resort	-7.748	109.622	4	700000	Ya	Ya	Ya	Ya	4.5
+25	Petanahan Homestay	Homestay	-7.746	109.62	5	300000	Ya	Ya	Ya	Tidak	4.2
+26	Bocor Cottage	Cottage	-7.734	109.59	4	350000	Ya	Ya	Ya	Tidak	4.1
+27	Karanganyar Guest House	Guest House	-7.721	109.588	4	250000	Ya	Ya	Ya	Tidak	4
+28	Rowokele Homestay	Homestay	-7.651	109.448	4	225000	Ya	Ya	Ya	Tidak	4
+29	Karst View Lodge	Lodge	-7.673	109.479	4	425000	Ya	Ya	Ya	Tidak	4.4
+30	Lembupurwo Eco Stay	Homestay	-7.728	109.356	4	275000	Ya	Ya	Ya	Tidak	4.3
+31	Mangrove Ayah Eco Lodge	Lodge	-7.699	109.399	4	375000	Ya	Ya	Ya	Tidak	4.4
+32	Jogosimo Beach Stay	Homestay	-7.689	109.459	4	250000	Ya	Ya	Ya	Tidak	4.1
+33	Tambakmulyo Guest House	Guest House	-7.696	109.462	4	225000	Ya	Ya	Ya	Tidak	4
+34	Van Der Wijck Inn	Hotel	-7.678	109.665	2	325000	Ya	Ya	Ya	Tidak	4.2
+35	Kebumen City Hotel	Hotel	-7.68	109.657	2	375000	Ya	Ya	Ya	Ya	4.3
